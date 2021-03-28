@@ -1,0 +1,5 @@
+
+no. of red   soldiers:-1
+no. of blue  soldiers:0
+no. of green soldiers:0
+invalid input please try again

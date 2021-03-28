@@ -1,0 +1,104 @@
+html{
+    display: flex;
+    flex-direction: column;
+    color: rgb(59, 59, 59);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(7px + 2vmin);
+    background-color:white;
+font-family:monospace;
+background-image:url('bkgrnd.jpg');
+    background-repeat:repeat-y;
+    background-size:15em;
+    background-position-y: -250px;
+    line-height: 1.5;
+  }
+
+ h3{
+   
+  line-height: 1.5;
+ }
+  .tmain{
+
+    align-items:stretch;
+    justify-content: center;
+    padding:0px 30vw;
+
+  }
+  .tmain th{
+    padding:10px;
+    text-align:justify;
+  }
+
+  .liref,.lirem,.dival{
+    text-align:left;
+  }
+
+.liref{
+  float:left;
+}
+
+  .dival p{
+    margin-top:-40px;
+    padding:20px;
+  }
+
+  .tccolumn {
+    float: left;
+    width: 50%;
+  }
+  .tcrow:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .tccolumnt {
+    float: left;
+    width: 100%;
+    font-size:50px;
+    margin-top:-50px;
+  }
+  .tcobject{
+    overflow:hidden;
+    min-width:700px;
+  }
+
+  #tcoutput{
+    padding:20px;
+    width:100%;
+    margin-top:-40%;
+    align-items:center;
+  }
+
+  .tcrow:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .tccontainer{
+    clear:both;
+    display:block;
+    text-align:left;
+    font-size:25px;
+  }
+.tcase{
+  font-family: Arial;
+  font-size: 1000px;
+}
+
+.flexcolumn {
+  float: left;
+  width: 33.33%;
+  align-items: center;
+}
+
+/* Clear floats after the columns */
+.flexrow:after {
+  content: "";
+  display: table;
+  width:100%;
+  clear: both;
+}

@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>AI Assignment 1-Q2</title>
+  <meta name="description" content="DAA-1">
+  <meta name="author" content="AAP">
+  <link rel="stylesheet" href="main.css?v=1.0">
+</head>
+<body>
+  
+  <h1 ><u>AI Assignment 2</u></h1>
+
+  <h5>Abhishek Bapna-2018A7PS0184H<br>Anirudh Sood-2018A7PS0673H</br>Kumar Pranjal-2018A7PS0163H </h5>
+  <div class="tcrow">
+    <div class="tccolumn">
+  <table>
+    <tr>
+      <td>Red Soldiers:</td>
+      <td><input id="Red_soldiers" placeholder="red..."></input></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Blue Soldiers:</td>
+      <td><input id="Blue_soldiers" placeholder="Blue..."></input></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Green Soldiers:</td>
+      <td><input id="Green_soldiers" placeholder="Green..."></input></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><button onclick="RunFile()">Run Case</button></td>
+    </tr>
+  </table>
+  </div>
+  <div class="tccolumn"><p><object class="tcobject" data="./output.txt" style="overflow:hidden;"></object></p></div>
+
+
+
+<div class="tccontainer">
+  <p><u><br>Testcase R:3 B:3 G:3</u></p>
+  <div class="tccolumnt" style="overflow:hidden;">
+    <p><object class="tcobject" data="./3-3-3.txt"></object></p>
+  </div>
+</div>
+<div class="tccontainer">
+  <p><u><br>Testcase R:0 B:1 G:1</u></p>
+  <div class="tccolumnt" style="overflow:hidden;">
+    <p><object class="tcobject" data="./0-1-1.txt"></object></p>
+  </div>
+</div>
+<div class="tccontainer">
+  <p><u><br>Testcase R:0 B:0 G:1</u></p>
+  <div class="tccolumnt" style="overflow:hidden;">
+    <p><object class="tcobject" data="./0-0-1.txt"></object></p>
+  </div>
+</div>
+<div class="tccontainer">
+  <p><u><br>Testcase R:0 B:0 G:2</u></p>
+  <div class="tccolumnt" style="overflow:hidden;">
+    <p><object class="tcobject" data="./0-0-2.txt"></object></p>
+  </div>
+</div>
+<div class="tccontainer">
+  <p><u><br>Testcase R:-1 B:0 G:0</u></p>
+  <div class="tccolumnt" style="overflow:hidden;">
+    <p><object class="tcobject" data="./-1-0-0.txt"></object></p>
+  </div>
+</div>
+<div class="tccontainer">
+  <p><u><br>Testcase R:0 B:1 G:999</u></p>
+  <div class="tccolumnt" style="overflow:hidden;">
+    <p><object class="tcobject" data="./0-1-999.txt"></object></p>
+  </div>
+</div>
+<div class="tccontainer">
+  <p><u><br>Testcase R:20 B:20 G:100</u></p>
+  <div class="tccolumnt" style="overflow:hidden;">
+    <p><object class="tcobject" data="./20-20-100.txt"></object></p>
+  </div>
+</div>
+<div class="tccontainer">
+  <p><u><br>Testcase R:100 B:100 G:0</u></p>
+  <div class="tccolumnt" style="overflow:hidden;">
+    <p><object class="tcobject" data="./100-100-0.txt"></object></p>
+  </div>
+</div>
+<div class="tccontainer">
+  <p><u><br>Testcase R:100 B:100 G:1</u></p>
+  <div class="tccolumnt" style="overflow:hidden;">
+    <p><object class="tcobject" data="./100-100-1.txt"></object></p>
+  </div>
+</div>
+<div class="tccontainer">
+  <p><u><br>Testcase R:20 B:40 G:10</u></p>
+  <div class="tccolumnt" style="overflow:hidden;">
+    <p><object class="tcobject" data="./20-40-10.txt"></object></p>
+  </div>
+</div>
+<div class="tccontainer">
+  <p><u><br>Testcase R:25 B:30 G:25</u></p>
+  <div class="tccolumnt" style="overflow:hidden;">
+    <p><object class="tcobject" data="./25-30-25.txt"></object></p>
+  </div>
+</div>
+
+<script type="text/javascript" >
+    function RunFile(){
+    alert('running testcase');; 
+    var Red = document.getElementById("Red_soldiers").value;
+    var Blue = document.getElementById("Blue_soldiers").value; 
+    var Green = document.getElementById("Green_soldiers").value; 
+    var objShell = new ActiveXObject("WSCRIPT.Shell").Run("cmd.exe /k cd C:/Users/Abhishek/Desktop/AI/AI-2/ & gcc algo2.c & a.exe "+Red+" "+Blue+" "+Green);
+    alert('finished running');; 
+  }
+</script>
+</body>
+</html>
+<!--onclick="transitionToPage('menu.html')"
+
+    <div class="flexrow">
+    <div class="flexcolumn"><h5><u>West Bank</u></h5>
+      <p>R B G</p>
+
+    </div>
+    <div class="flexcolumn">
+      <button onclick="NextStep()">Next</button>
+    </div>
+    <div class="flexcolumn"><h5><u>East Bank</u></h5>
+      <p>R B G</p>
+    </div>
+  </div>
+-->

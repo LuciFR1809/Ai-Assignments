@@ -1,0 +1,10 @@
+
+no. of red   soldiers:0
+no. of blue  soldiers:1
+no. of green soldiers:1
+Min steps required: 1
+ __________________________________________________________________________________
+|             Movement of Soldiers             || West=[R, B, G] || East=[R, B, G] |
+|----------------------------------------------||----------------||----------------|
+| Blue  and Green soldiers cross west to east  || West=[0, 0, 0] || East=[0, 1, 1] |
+|______________________________________________||________________||________________|

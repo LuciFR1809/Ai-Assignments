@@ -1,0 +1,286 @@
+
+no. of red   soldiers:20
+no. of blue  soldiers:20
+no. of green soldiers:100
+Min steps required: 277
+ __________________________________________________________________________________
+|             Movement of Soldiers             || West=[R, B, G] || East=[R, B, G] |
+|----------------------------------------------||----------------||----------------|
+| Red   and Blue  soldiers cross west to east  || West=[19, 19, 100] || East=[1, 1, 0] |
+| Red   soldier crosses east to west           || West=[20, 19, 100] || East=[0, 1, 0] |
+| Red   and Blue  soldiers cross west to east  || West=[19, 18, 100] || East=[1, 2, 0] |
+| Red   soldier crosses east to west           || West=[20, 18, 100] || East=[0, 2, 0] |
+| Red   and Blue  soldiers cross west to east  || West=[19, 17, 100] || East=[1, 3, 0] |
+| Red   soldier crosses east to west           || West=[20, 17, 100] || East=[0, 3, 0] |
+| Red   and Blue  soldiers cross west to east  || West=[19, 16, 100] || East=[1, 4, 0] |
+| Red   soldier crosses east to west           || West=[20, 16, 100] || East=[0, 4, 0] |
+| Red   and Blue  soldiers cross west to east  || West=[19, 15, 100] || East=[1, 5, 0] |
+| Red   soldier crosses east to west           || West=[20, 15, 100] || East=[0, 5, 0] |
+| Red   and Blue  soldiers cross west to east  || West=[19, 14, 100] || East=[1, 6, 0] |
+| Red   soldier crosses east to west           || West=[20, 14, 100] || East=[0, 6, 0] |
+| Red   and Blue  soldiers cross west to east  || West=[19, 13, 100] || East=[1, 7, 0] |
+| Red   soldier crosses east to west           || West=[20, 13, 100] || East=[0, 7, 0] |
+| Red   and Blue  soldiers cross west to east  || West=[19, 12, 100] || East=[1, 8, 0] |
+| Red   soldier crosses east to west           || West=[20, 12, 100] || East=[0, 8, 0] |
+| Red   and Blue  soldiers cross west to east  || West=[19, 11, 100] || East=[1, 9, 0] |
+| Red   soldier crosses east to west           || West=[20, 11, 100] || East=[0, 9, 0] |
+| Red   and Blue  soldiers cross west to east  || West=[19, 10, 100] || East=[1, 10, 0] |
+| Red   soldier crosses east to west           || West=[20, 10, 100] || East=[0, 10, 0] |
+| Red   and Blue  soldiers cross west to east  || West=[19, 9, 100] || East=[1, 11, 0] |
+| Red   soldier crosses east to west           || West=[20, 9, 100] || East=[0, 11, 0] |
+| Red   and Blue  soldiers cross west to east  || West=[19, 8, 100] || East=[1, 12, 0] |
+| Red   soldier crosses east to west           || West=[20, 8, 100] || East=[0, 12, 0] |
+| Red   and Blue  soldiers cross west to east  || West=[19, 7, 100] || East=[1, 13, 0] |
+| Red   soldier crosses east to west           || West=[20, 7, 100] || East=[0, 13, 0] |
+| Red   and Blue  soldiers cross west to east  || West=[19, 6, 100] || East=[1, 14, 0] |
+| Red   soldier crosses east to west           || West=[20, 6, 100] || East=[0, 14, 0] |
+| Red   and Blue  soldiers cross west to east  || West=[19, 5, 100] || East=[1, 15, 0] |
+| Red   soldier crosses east to west           || West=[20, 5, 100] || East=[0, 15, 0] |
+| Red   and Blue  soldiers cross west to east  || West=[19, 4, 100] || East=[1, 16, 0] |
+| Red   soldier crosses east to west           || West=[20, 4, 100] || East=[0, 16, 0] |
+| Red   and Blue  soldiers cross west to east  || West=[19, 3, 100] || East=[1, 17, 0] |
+| Red   soldier crosses east to west           || West=[20, 3, 100] || East=[0, 17, 0] |
+| Red   and Blue  soldiers cross west to east  || West=[19, 2, 100] || East=[1, 18, 0] |
+| Red   soldier crosses east to west           || West=[20, 2, 100] || East=[0, 18, 0] |
+| Red   and Blue  soldiers cross west to east  || West=[19, 1, 100] || East=[1, 19, 0] |
+| Red   soldier crosses east to west           || West=[20, 1, 100] || East=[0, 19, 0] |
+| Red   and Blue  soldiers cross west to east  || West=[19, 0, 100] || East=[1, 20, 0] |
+| Red   soldier crosses east to west           || West=[20, 0, 100] || East=[0, 20, 0] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 99] || East=[1, 20, 1] |
+| Red   soldier crosses east to west           || West=[20, 0, 99] || East=[0, 20, 1] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 98] || East=[1, 20, 2] |
+| Red   soldier crosses east to west           || West=[20, 0, 98] || East=[0, 20, 2] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 97] || East=[1, 20, 3] |
+| Red   soldier crosses east to west           || West=[20, 0, 97] || East=[0, 20, 3] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 96] || East=[1, 20, 4] |
+| Red   soldier crosses east to west           || West=[20, 0, 96] || East=[0, 20, 4] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 95] || East=[1, 20, 5] |
+| Red   soldier crosses east to west           || West=[20, 0, 95] || East=[0, 20, 5] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 94] || East=[1, 20, 6] |
+| Red   soldier crosses east to west           || West=[20, 0, 94] || East=[0, 20, 6] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 93] || East=[1, 20, 7] |
+| Red   soldier crosses east to west           || West=[20, 0, 93] || East=[0, 20, 7] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 92] || East=[1, 20, 8] |
+| Red   soldier crosses east to west           || West=[20, 0, 92] || East=[0, 20, 8] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 91] || East=[1, 20, 9] |
+| Red   soldier crosses east to west           || West=[20, 0, 91] || East=[0, 20, 9] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 90] || East=[1, 20, 10] |
+| Red   soldier crosses east to west           || West=[20, 0, 90] || East=[0, 20, 10] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 89] || East=[1, 20, 11] |
+| Red   soldier crosses east to west           || West=[20, 0, 89] || East=[0, 20, 11] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 88] || East=[1, 20, 12] |
+| Red   soldier crosses east to west           || West=[20, 0, 88] || East=[0, 20, 12] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 87] || East=[1, 20, 13] |
+| Red   soldier crosses east to west           || West=[20, 0, 87] || East=[0, 20, 13] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 86] || East=[1, 20, 14] |
+| Red   soldier crosses east to west           || West=[20, 0, 86] || East=[0, 20, 14] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 85] || East=[1, 20, 15] |
+| Red   soldier crosses east to west           || West=[20, 0, 85] || East=[0, 20, 15] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 84] || East=[1, 20, 16] |
+| Red   soldier crosses east to west           || West=[20, 0, 84] || East=[0, 20, 16] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 83] || East=[1, 20, 17] |
+| Red   soldier crosses east to west           || West=[20, 0, 83] || East=[0, 20, 17] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 82] || East=[1, 20, 18] |
+| Red   soldier crosses east to west           || West=[20, 0, 82] || East=[0, 20, 18] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 81] || East=[1, 20, 19] |
+| Red   soldier crosses east to west           || West=[20, 0, 81] || East=[0, 20, 19] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 80] || East=[1, 20, 20] |
+| Red   soldier crosses east to west           || West=[20, 0, 80] || East=[0, 20, 20] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 79] || East=[1, 20, 21] |
+| Red   soldier crosses east to west           || West=[20, 0, 79] || East=[0, 20, 21] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 78] || East=[1, 20, 22] |
+| Red   soldier crosses east to west           || West=[20, 0, 78] || East=[0, 20, 22] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 77] || East=[1, 20, 23] |
+| Red   soldier crosses east to west           || West=[20, 0, 77] || East=[0, 20, 23] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 76] || East=[1, 20, 24] |
+| Red   soldier crosses east to west           || West=[20, 0, 76] || East=[0, 20, 24] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 75] || East=[1, 20, 25] |
+| Red   soldier crosses east to west           || West=[20, 0, 75] || East=[0, 20, 25] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 74] || East=[1, 20, 26] |
+| Red   soldier crosses east to west           || West=[20, 0, 74] || East=[0, 20, 26] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 73] || East=[1, 20, 27] |
+| Red   soldier crosses east to west           || West=[20, 0, 73] || East=[0, 20, 27] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 72] || East=[1, 20, 28] |
+| Red   soldier crosses east to west           || West=[20, 0, 72] || East=[0, 20, 28] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 71] || East=[1, 20, 29] |
+| Red   soldier crosses east to west           || West=[20, 0, 71] || East=[0, 20, 29] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 70] || East=[1, 20, 30] |
+| Red   soldier crosses east to west           || West=[20, 0, 70] || East=[0, 20, 30] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 69] || East=[1, 20, 31] |
+| Red   soldier crosses east to west           || West=[20, 0, 69] || East=[0, 20, 31] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 68] || East=[1, 20, 32] |
+| Red   soldier crosses east to west           || West=[20, 0, 68] || East=[0, 20, 32] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 67] || East=[1, 20, 33] |
+| Red   soldier crosses east to west           || West=[20, 0, 67] || East=[0, 20, 33] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 66] || East=[1, 20, 34] |
+| Red   soldier crosses east to west           || West=[20, 0, 66] || East=[0, 20, 34] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 65] || East=[1, 20, 35] |
+| Red   soldier crosses east to west           || West=[20, 0, 65] || East=[0, 20, 35] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 64] || East=[1, 20, 36] |
+| Red   soldier crosses east to west           || West=[20, 0, 64] || East=[0, 20, 36] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 63] || East=[1, 20, 37] |
+| Red   soldier crosses east to west           || West=[20, 0, 63] || East=[0, 20, 37] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 62] || East=[1, 20, 38] |
+| Red   soldier crosses east to west           || West=[20, 0, 62] || East=[0, 20, 38] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 61] || East=[1, 20, 39] |
+| Red   soldier crosses east to west           || West=[20, 0, 61] || East=[0, 20, 39] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 60] || East=[1, 20, 40] |
+| Red   soldier crosses east to west           || West=[20, 0, 60] || East=[0, 20, 40] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 59] || East=[1, 20, 41] |
+| Red   soldier crosses east to west           || West=[20, 0, 59] || East=[0, 20, 41] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 58] || East=[1, 20, 42] |
+| Red   soldier crosses east to west           || West=[20, 0, 58] || East=[0, 20, 42] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 57] || East=[1, 20, 43] |
+| Red   soldier crosses east to west           || West=[20, 0, 57] || East=[0, 20, 43] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 56] || East=[1, 20, 44] |
+| Red   soldier crosses east to west           || West=[20, 0, 56] || East=[0, 20, 44] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 55] || East=[1, 20, 45] |
+| Red   soldier crosses east to west           || West=[20, 0, 55] || East=[0, 20, 45] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 54] || East=[1, 20, 46] |
+| Red   soldier crosses east to west           || West=[20, 0, 54] || East=[0, 20, 46] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 53] || East=[1, 20, 47] |
+| Red   soldier crosses east to west           || West=[20, 0, 53] || East=[0, 20, 47] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 52] || East=[1, 20, 48] |
+| Red   soldier crosses east to west           || West=[20, 0, 52] || East=[0, 20, 48] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 51] || East=[1, 20, 49] |
+| Red   soldier crosses east to west           || West=[20, 0, 51] || East=[0, 20, 49] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 50] || East=[1, 20, 50] |
+| Red   soldier crosses east to west           || West=[20, 0, 50] || East=[0, 20, 50] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 49] || East=[1, 20, 51] |
+| Red   soldier crosses east to west           || West=[20, 0, 49] || East=[0, 20, 51] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 48] || East=[1, 20, 52] |
+| Red   soldier crosses east to west           || West=[20, 0, 48] || East=[0, 20, 52] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 47] || East=[1, 20, 53] |
+| Red   soldier crosses east to west           || West=[20, 0, 47] || East=[0, 20, 53] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 46] || East=[1, 20, 54] |
+| Red   soldier crosses east to west           || West=[20, 0, 46] || East=[0, 20, 54] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 45] || East=[1, 20, 55] |
+| Red   soldier crosses east to west           || West=[20, 0, 45] || East=[0, 20, 55] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 44] || East=[1, 20, 56] |
+| Red   soldier crosses east to west           || West=[20, 0, 44] || East=[0, 20, 56] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 43] || East=[1, 20, 57] |
+| Red   soldier crosses east to west           || West=[20, 0, 43] || East=[0, 20, 57] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 42] || East=[1, 20, 58] |
+| Red   soldier crosses east to west           || West=[20, 0, 42] || East=[0, 20, 58] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 41] || East=[1, 20, 59] |
+| Red   soldier crosses east to west           || West=[20, 0, 41] || East=[0, 20, 59] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 40] || East=[1, 20, 60] |
+| Red   soldier crosses east to west           || West=[20, 0, 40] || East=[0, 20, 60] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 39] || East=[1, 20, 61] |
+| Red   soldier crosses east to west           || West=[20, 0, 39] || East=[0, 20, 61] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 38] || East=[1, 20, 62] |
+| Red   soldier crosses east to west           || West=[20, 0, 38] || East=[0, 20, 62] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 37] || East=[1, 20, 63] |
+| Red   soldier crosses east to west           || West=[20, 0, 37] || East=[0, 20, 63] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 36] || East=[1, 20, 64] |
+| Red   soldier crosses east to west           || West=[20, 0, 36] || East=[0, 20, 64] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 35] || East=[1, 20, 65] |
+| Red   soldier crosses east to west           || West=[20, 0, 35] || East=[0, 20, 65] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 34] || East=[1, 20, 66] |
+| Red   soldier crosses east to west           || West=[20, 0, 34] || East=[0, 20, 66] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 33] || East=[1, 20, 67] |
+| Red   soldier crosses east to west           || West=[20, 0, 33] || East=[0, 20, 67] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 32] || East=[1, 20, 68] |
+| Red   soldier crosses east to west           || West=[20, 0, 32] || East=[0, 20, 68] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 31] || East=[1, 20, 69] |
+| Red   soldier crosses east to west           || West=[20, 0, 31] || East=[0, 20, 69] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 30] || East=[1, 20, 70] |
+| Red   soldier crosses east to west           || West=[20, 0, 30] || East=[0, 20, 70] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 29] || East=[1, 20, 71] |
+| Red   soldier crosses east to west           || West=[20, 0, 29] || East=[0, 20, 71] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 28] || East=[1, 20, 72] |
+| Red   soldier crosses east to west           || West=[20, 0, 28] || East=[0, 20, 72] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 27] || East=[1, 20, 73] |
+| Red   soldier crosses east to west           || West=[20, 0, 27] || East=[0, 20, 73] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 26] || East=[1, 20, 74] |
+| Red   soldier crosses east to west           || West=[20, 0, 26] || East=[0, 20, 74] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 25] || East=[1, 20, 75] |
+| Red   soldier crosses east to west           || West=[20, 0, 25] || East=[0, 20, 75] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 24] || East=[1, 20, 76] |
+| Red   soldier crosses east to west           || West=[20, 0, 24] || East=[0, 20, 76] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 23] || East=[1, 20, 77] |
+| Red   soldier crosses east to west           || West=[20, 0, 23] || East=[0, 20, 77] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 22] || East=[1, 20, 78] |
+| Red   soldier crosses east to west           || West=[20, 0, 22] || East=[0, 20, 78] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 21] || East=[1, 20, 79] |
+| Red   soldier crosses east to west           || West=[20, 0, 21] || East=[0, 20, 79] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 20] || East=[1, 20, 80] |
+| Red   soldier crosses east to west           || West=[20, 0, 20] || East=[0, 20, 80] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 19] || East=[1, 20, 81] |
+| Red   soldier crosses east to west           || West=[20, 0, 19] || East=[0, 20, 81] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 18] || East=[1, 20, 82] |
+| Red   soldier crosses east to west           || West=[20, 0, 18] || East=[0, 20, 82] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 17] || East=[1, 20, 83] |
+| Red   soldier crosses east to west           || West=[20, 0, 17] || East=[0, 20, 83] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 16] || East=[1, 20, 84] |
+| Red   soldier crosses east to west           || West=[20, 0, 16] || East=[0, 20, 84] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 15] || East=[1, 20, 85] |
+| Red   soldier crosses east to west           || West=[20, 0, 15] || East=[0, 20, 85] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 14] || East=[1, 20, 86] |
+| Red   soldier crosses east to west           || West=[20, 0, 14] || East=[0, 20, 86] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 13] || East=[1, 20, 87] |
+| Red   soldier crosses east to west           || West=[20, 0, 13] || East=[0, 20, 87] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 12] || East=[1, 20, 88] |
+| Red   soldier crosses east to west           || West=[20, 0, 12] || East=[0, 20, 88] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 11] || East=[1, 20, 89] |
+| Red   soldier crosses east to west           || West=[20, 0, 11] || East=[0, 20, 89] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 10] || East=[1, 20, 90] |
+| Red   soldier crosses east to west           || West=[20, 0, 10] || East=[0, 20, 90] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 9] || East=[1, 20, 91] |
+| Red   soldier crosses east to west           || West=[20, 0, 9] || East=[0, 20, 91] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 8] || East=[1, 20, 92] |
+| Red   soldier crosses east to west           || West=[20, 0, 8] || East=[0, 20, 92] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 7] || East=[1, 20, 93] |
+| Red   soldier crosses east to west           || West=[20, 0, 7] || East=[0, 20, 93] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 6] || East=[1, 20, 94] |
+| Red   soldier crosses east to west           || West=[20, 0, 6] || East=[0, 20, 94] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 5] || East=[1, 20, 95] |
+| Red   soldier crosses east to west           || West=[20, 0, 5] || East=[0, 20, 95] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 4] || East=[1, 20, 96] |
+| Red   soldier crosses east to west           || West=[20, 0, 4] || East=[0, 20, 96] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 3] || East=[1, 20, 97] |
+| Red   soldier crosses east to west           || West=[20, 0, 3] || East=[0, 20, 97] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 2] || East=[1, 20, 98] |
+| Red   soldier crosses east to west           || West=[20, 0, 2] || East=[0, 20, 98] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 1] || East=[1, 20, 99] |
+| Red   soldier crosses east to west           || West=[20, 0, 1] || East=[0, 20, 99] |
+| Green and Red   soldiers cross west to east  || West=[19, 0, 0] || East=[1, 20, 100] |
+| Blue  soldier crosses east to west           || West=[19, 1, 0] || East=[1, 19, 100] |
+| Red   and Blue  soldiers cross west to east  || West=[18, 0, 0] || East=[2, 20, 100] |
+| Blue  soldier crosses east to west           || West=[18, 1, 0] || East=[2, 19, 100] |
+| Red   and Blue  soldiers cross west to east  || West=[17, 0, 0] || East=[3, 20, 100] |
+| Blue  soldier crosses east to west           || West=[17, 1, 0] || East=[3, 19, 100] |
+| Red   and Blue  soldiers cross west to east  || West=[16, 0, 0] || East=[4, 20, 100] |
+| Blue  soldier crosses east to west           || West=[16, 1, 0] || East=[4, 19, 100] |
+| Red   and Blue  soldiers cross west to east  || West=[15, 0, 0] || East=[5, 20, 100] |
+| Blue  soldier crosses east to west           || West=[15, 1, 0] || East=[5, 19, 100] |
+| Red   and Blue  soldiers cross west to east  || West=[14, 0, 0] || East=[6, 20, 100] |
+| Blue  soldier crosses east to west           || West=[14, 1, 0] || East=[6, 19, 100] |
+| Red   and Blue  soldiers cross west to east  || West=[13, 0, 0] || East=[7, 20, 100] |
+| Blue  soldier crosses east to west           || West=[13, 1, 0] || East=[7, 19, 100] |
+| Red   and Blue  soldiers cross west to east  || West=[12, 0, 0] || East=[8, 20, 100] |
+| Blue  soldier crosses east to west           || West=[12, 1, 0] || East=[8, 19, 100] |
+| Red   and Blue  soldiers cross west to east  || West=[11, 0, 0] || East=[9, 20, 100] |
+| Blue  soldier crosses east to west           || West=[11, 1, 0] || East=[9, 19, 100] |
+| Red   and Blue  soldiers cross west to east  || West=[10, 0, 0] || East=[10, 20, 100] |
+| Blue  soldier crosses east to west           || West=[10, 1, 0] || East=[10, 19, 100] |
+| Red   and Blue  soldiers cross west to east  || West=[9, 0, 0] || East=[11, 20, 100] |
+| Blue  soldier crosses east to west           || West=[9, 1, 0] || East=[11, 19, 100] |
+| Red   and Blue  soldiers cross west to east  || West=[8, 0, 0] || East=[12, 20, 100] |
+| Blue  soldier crosses east to west           || West=[8, 1, 0] || East=[12, 19, 100] |
+| Red   and Blue  soldiers cross west to east  || West=[7, 0, 0] || East=[13, 20, 100] |
+| Blue  soldier crosses east to west           || West=[7, 1, 0] || East=[13, 19, 100] |
+| Red   and Blue  soldiers cross west to east  || West=[6, 0, 0] || East=[14, 20, 100] |
+| Blue  soldier crosses east to west           || West=[6, 1, 0] || East=[14, 19, 100] |
+| Red   and Blue  soldiers cross west to east  || West=[5, 0, 0] || East=[15, 20, 100] |
+| Blue  soldier crosses east to west           || West=[5, 1, 0] || East=[15, 19, 100] |
+| Red   and Blue  soldiers cross west to east  || West=[4, 0, 0] || East=[16, 20, 100] |
+| Blue  soldier crosses east to west           || West=[4, 1, 0] || East=[16, 19, 100] |
+| Red   and Blue  soldiers cross west to east  || West=[3, 0, 0] || East=[17, 20, 100] |
+| Blue  soldier crosses east to west           || West=[3, 1, 0] || East=[17, 19, 100] |
+| Red   and Blue  soldiers cross west to east  || West=[2, 0, 0] || East=[18, 20, 100] |
+| Blue  soldier crosses east to west           || West=[2, 1, 0] || East=[18, 19, 100] |
+| Red   and Blue  soldiers cross west to east  || West=[1, 0, 0] || East=[19, 20, 100] |
+| Blue  soldier crosses east to west           || West=[1, 1, 0] || East=[19, 19, 100] |
+| Red   and Blue  soldiers cross west to east  || West=[0, 0, 0] || East=[20, 20, 100] |
+|______________________________________________||________________||________________|

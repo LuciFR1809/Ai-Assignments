@@ -1,0 +1,5 @@
+
+no. of red   soldiers:0
+no. of blue  soldiers:0
+no. of green soldiers:1
+Soldiers can't cross the river
