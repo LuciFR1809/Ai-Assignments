@@ -45,7 +45,7 @@
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
 				<position>508 204 592 291</position>
-				<barchart width="128" height="64" />
+				<barchart active="true" width="128" height="64" />
 			</node>
 			<node id="Node1">
 				<name>Personnel</name>
@@ -53,7 +53,7 @@
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
 				<position>296 56 380 142</position>
-				<barchart width="128" height="64" />
+				<barchart active="true" width="128" height="64" />
 			</node>
 			<node id="Node2">
 				<name>Slow Traffic</name>
@@ -61,15 +61,15 @@
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
 				<position>304 309 386 393</position>
-				<barchart width="128" height="64" />
+				<barchart active="true" width="128" height="64" />
 			</node>
 			<node id="Node3">
 				<name>Speed</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>763 212 854 292</position>
-				<barchart width="128" height="64" />
+				<position>764 205 855 285</position>
+				<barchart active="true" width="128" height="64" />
 			</node>
 			<node id="Node6">
 				<name>See Personnel</name>
@@ -77,15 +77,15 @@
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
 				<position>80 201 172 290</position>
-				<barchart width="128" height="64" />
+				<barchart active="true" width="128" height="64" />
 			</node>
 			<node id="On_Time">
 				<name>On Time</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>558 442 750 550</position>
-				<barchart width="128" height="64" />
+				<position>558 441 750 549</position>
+				<barchart active="true" width="128" height="64" />
 			</node>
 			<textbox>
 				<caption>                        AI-2\nBAYESIAN NETWARK-ONTIME\nABHISHEK BAPNA-2018A7PS0184H\nKUMAR PRANJAL -2018A7PS0163H\nANIRUDH SOOD    -2018A7PS0673H\n</caption>
