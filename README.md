@@ -4,7 +4,9 @@
 - River crossing problem using Depth First Backtracking
 - A* implementation of shortest path using Open Map API
  
-
+## Assignment-2
+-Expertise System creation for Published Journals
+-Bayesian Network creation
 
 
 Course mandated Project for AI(CS F407) at BITS Hyderabad
