@@ -17,6 +17,4 @@ On checklist next:
 * [ ] Database Structuring & Scaling
 * [ ] Caretaker Settings
 
-![MainScreen](screenshots/MainScreen.jpg)
-![ChatBot](screenshots/ChatBot.jpg)
-![LockScreen](screenshots/LockScreen.jpg)
+<img src="screenshots/MainScreen.jpeg" width="33%"> <img src="screenshots/ChatBot.jpeg" width="33%"> <img src="screenshots/LockScreen.jpeg" width="33%">
